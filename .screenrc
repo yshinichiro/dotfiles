@@ -1,0 +1,10 @@
+startup_message off
+escape ^Z^Z
+vbell off
+hardstatus alwayslastline " %`%-w%{=b bw}%n %t%{-}%+w"
+autodetach on
+bind ^k kill
+shell -$SHELL
+termcapinfo xterm KJ=euc-jp
+defencoding euc-jp
+shelltitle "$ | shell"
